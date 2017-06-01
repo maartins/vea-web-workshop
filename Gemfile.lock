@@ -1,0 +1,144 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.5.1)
+      public_suffix (~> 2.0, >= 2.0.2)
+    appium_capybara (1.3.0)
+      appium_lib (>= 4.1.0)
+      capybara (~> 2.7)
+    appium_lib (9.4.6)
+      awesome_print (~> 1.7)
+      json (>= 1.8)
+      nokogiri (~> 1.6, >= 1.6.6)
+      selenium-webdriver (>= 3.0.4, <= 3.4)
+      tomlrb (~> 1.1)
+    archive-zip (0.7.0)
+      io-like (~> 0.3.0)
+    ast (2.3.0)
+    awesome_print (1.7.0)
+    builder (3.2.3)
+    capybara (2.14.0)
+      addressable
+      mime-types (>= 1.16)
+      nokogiri (>= 1.3.3)
+      rack (>= 1.0.0)
+      rack-test (>= 0.5.4)
+      xpath (~> 2.0)
+    capybara-screenshot (1.0.14)
+      capybara (>= 1.0, < 3)
+      launchy
+    childprocess (0.7.0)
+      ffi (~> 1.0, >= 1.0.11)
+    chromedriver-helper (1.1.0)
+      archive-zip (~> 0.7.0)
+      nokogiri (~> 1.6)
+    cucumber (2.4.0)
+      builder (>= 2.1.2)
+      cucumber-core (~> 1.5.0)
+      cucumber-wire (~> 0.0.1)
+      diff-lcs (>= 1.1.3)
+      gherkin (~> 4.0)
+      multi_json (>= 1.7.5, < 2.0)
+      multi_test (>= 0.1.2)
+    cucumber-core (1.5.0)
+      gherkin (~> 4.0)
+    cucumber-wire (0.0.1)
+    diff-lcs (1.3)
+    ffi (1.9.18)
+    gherkin (4.1.3)
+    hash (1.0.0)
+      hash-compositing
+      hash-hooked
+    hash-compositing (1.0.3)
+      hash-hooked
+    hash-hooked (1.2.1)
+      identifies_as
+    identifies_as (1.1.1)
+    io-like (0.3.0)
+    json (1.8.6)
+    launchy (2.4.3)
+      addressable (~> 2.3)
+    loofah (2.0.3)
+      nokogiri (>= 1.5.9)
+    mime-types (3.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2016.0521)
+    mini_portile2 (2.1.0)
+    multi_json (1.12.1)
+    multi_test (0.1.2)
+    nokogiri (1.7.2)
+      mini_portile2 (~> 2.1.0)
+    parallel (1.11.2)
+    parallel_tests (2.14.1)
+      parallel
+    parser (2.4.0.0)
+      ast (~> 2.2)
+    peach (0.5.1)
+    powerpack (0.1.1)
+    public_suffix (2.0.5)
+    rack (2.0.3)
+    rack-test (0.6.3)
+      rack (>= 1.0)
+    rainbow (2.2.2)
+      rake
+    rake (12.0.0)
+    report_builder (0.1.2)
+      builder (~> 3.2, >= 3.2.2)
+      json (~> 1.8, >= 1.8.1)
+    rspec (3.6.0)
+      rspec-core (~> 3.6.0)
+      rspec-expectations (~> 3.6.0)
+      rspec-mocks (~> 3.6.0)
+    rspec-core (3.6.0)
+      rspec-support (~> 3.6.0)
+    rspec-expectations (3.6.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.6.0)
+    rspec-mocks (3.6.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.6.0)
+    rspec-support (3.6.0)
+    rubocop (0.49.0)
+      parallel (~> 1.10)
+      parser (>= 2.3.3.1, < 3.0)
+      powerpack (~> 0.1)
+      rainbow (>= 1.99.1, < 3.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (~> 1.0, >= 1.0.1)
+    ruby-progressbar (1.8.1)
+    rubyzip (1.2.1)
+    selenium-webdriver (3.4.0)
+      childprocess (~> 0.5)
+      rubyzip (~> 1.0)
+      websocket (~> 1.0)
+    site_prism (2.9)
+      addressable (>= 2.3.3, < 3.0)
+      capybara (>= 2.1, < 3.0)
+    tomlrb (1.2.4)
+    unicode-display_width (1.2.1)
+    websocket (1.2.4)
+    xpath (2.1.0)
+      nokogiri (~> 1.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  appium_capybara
+  capybara
+  capybara-screenshot
+  chromedriver-helper
+  cucumber
+  hash
+  json
+  loofah
+  parallel_tests
+  peach
+  report_builder
+  rspec
+  rubocop
+  selenium-webdriver
+  site_prism
+
+BUNDLED WITH
+   1.15.0
